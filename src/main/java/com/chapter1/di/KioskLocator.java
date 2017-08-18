@@ -14,6 +14,10 @@ public class KioskLocator implements SourceLocator {
 		locations.add(new RentalLocation("Kiosk C", Arrays.asList("Forest Gump", "Hook")));
 	}
 
+	public KioskLocator(String key) {
+		// TODO Auto-generated constructor stub
+	}
+	
 	/* (non-Javadoc)
 	 * @see com.chapter1.di.SourceLocator#find(java.lang.String, int)
 	 */

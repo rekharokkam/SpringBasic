@@ -14,15 +14,15 @@ import java.util.List;
  */
 public class RentalService {
 
-	private SourceLocator storeLocator ;
+	private SourceLocator locator ;
 	
-	public RentalService (SourceLocator storeLocator)
+	public RentalService (SourceLocator locator)
 	{
-		this.storeLocator = storeLocator;
+		this.locator = locator;
 	}
 	
 	public List<RentalLocation> find (String title, String zipCode, int miles){
-		List<RentalLocation> locations = storeLocator.find(zipCode, miles);
+		List<RentalLocation> locations = locator.find(zipCode, miles);
 		
 		List<RentalLocation> availableLocations = new ArrayList<RentalLocation>();
 		for (RentalLocation location : locations){
