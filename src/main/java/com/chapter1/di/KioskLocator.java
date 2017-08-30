@@ -21,7 +21,7 @@ public class KioskLocator implements SourceLocator {
 	/* (non-Javadoc)
 	 * @see com.chapter1.di.SourceLocator#find(java.lang.String, int)
 	 */
-	@Override
+	
 	public List<RentalLocation> find (String zipCode, int radius){
 		return locations;
 	}

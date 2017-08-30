@@ -17,7 +17,7 @@ public class DigitalMediaLocator implements SourceLocator {
 	public DigitalMediaLocator() {
 	}
 
-	@Override
+	
 	public List<RentalLocation> find(String zipCode, int radius) {
 		return locations;
 	}

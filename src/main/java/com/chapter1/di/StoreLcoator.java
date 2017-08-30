@@ -17,8 +17,11 @@ public class StoreLcoator implements SourceLocator {
 	/* (non-Javadoc)
 	 * @see com.chapter1.di.SourceLocator#find(java.lang.String, int)
 	 */
-	@Override
-	public List<RentalLocation> find (String zipCode, int radius){
-		return locations;
+	public List<RentalLocation> find(String zipCode, int radius)
+	{
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+	
 }
