@@ -1,5 +1,0 @@
-At the roots Spring is an Inversion of Control Container or Dependency Injection container
-
-Spring IOC centralizes the creation of beans/Objects used in the application. Manual creation of Objects is distributed
-
-Different examples demonstrated here clearly depict the purpose of IOC. Whole point of IOC is to eliminate the glue code
